@@ -113,3 +113,67 @@ body {
 #hearts {
     color: red;
 }
+
+/* Uputstvo */
+.uputstvo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px 500px;
+    line-height: 1.4;
+}
+
+.uputstvo h1 {
+    margin-bottom: 15px;
+}
+
+.uputstvo p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+/* Lista naredbi */
+.lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista table {
+    min-width: 500px;
+    border-collapse: collapse;
+    margin: 15px 0 30px 0;
+    font-size: 1.4em;
+    background: #fff;
+    color: #000;
+    border-radius: 7px 7px 0 0;
+    overflow: hidden;
+}
+
+.lista thead {
+    background: #0096FF;
+    color: #fff;
+}
+
+.lista th {
+    text-align: left;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+.lista td {
+    text-align: left;
+    padding: 15px 25px;
+}
+
+.lista tbody tr {
+    border-bottom: 1px solid #000;
+}
+
+.lista tbody tr:last-of-type{
+    border-bottom: 5px solid #0096FF;
+}
+
+.lista tbody tr:hover {
+    font-weight: bold;
+    color: #0096FF;
+}

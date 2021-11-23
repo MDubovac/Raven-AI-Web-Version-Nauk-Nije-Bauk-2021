@@ -11,7 +11,7 @@ try {
        ["I'm good, thanks for asking, how can i help?"],
        ["I live on the Singidunum University's server."],
        ["I was created by the team from Singidunum University."],
-       ["My name is Raven.", "I wan given the name Raven."]
+       ["My name is Raven.", "I was given the name Raven."]
     ];
 
     // When the user stops speaking
@@ -72,6 +72,11 @@ try {
             let query = text.slice(9);
             window.open(`https://www.google.rs/maps?q=${query}`);
             s.text = `Here is what i found for ${query}`;
+        }
+        else if (text.includes("what are you"))
+        {
+            const answer = "I am an artificial inteligence program, made to help you out in your daily activities."
+            s.text = answer;
         }
         else 
         {
