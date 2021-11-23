@@ -1,0 +1,201 @@
+/* Droid && Server */
+.droid_server {
+    display: flex;
+    justify-content: space-around;
+}
+
+#droid {
+    animation: droid_hover 5s infinite;
+}
+
+/* Particles */
+#p1 {
+    animation: particle_float 5s infinite;
+    animation-delay: 0.2s;
+}
+
+#p2 {
+    animation: particle_float 5s infinite;
+    animation-delay: 0.6s;
+}
+
+#p3 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1s;
+}
+
+#p4 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2s;
+}
+
+#p5 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2.4s;
+}
+
+#p6 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1.2s;
+}
+
+#p7 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2.5s;
+}
+
+#p8 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1.2s;
+}
+
+#p9 {
+    animation: particle_float 5s infinite;
+    animation-delay: 4.2s;
+}
+
+#p10 {
+    animation: particle_float 5s infinite;
+    animation-delay: 3.2s;
+}
+
+#p11 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2.2s;
+}
+
+#p12 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1.5s;
+}
+
+#p13 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2.2s;
+}
+
+#p14 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1.1s;
+}
+
+#p15 {
+    animation: particle_float 5s infinite;
+    animation-delay: 3s;
+}
+
+#p16 {
+    animation: particle_float 5s infinite;
+    animation-delay: 2s;
+}
+
+#p17 {
+    animation: particle_float 5s infinite;
+    animation-delay: 1s;
+}
+
+#p18 {
+    animation: particle_float 5s infinite;
+    animation-delay: 0.5s;
+}
+
+/* Eye blinking */ 
+#right_eye {
+    animation: eye_blink 5s infinite steps(5, start);
+}
+
+#left_eye {
+    animation: eye_blink 5s infinite steps(5, start);
+}
+
+/* Server lights */
+#green_light_1 {
+    animation: server_light 0.4s infinite;
+}
+
+#green_light_2 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 0.2s;
+}
+
+#green_light_3 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 0.7s;
+}
+
+#green_light_4 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 0.5s;
+}
+
+#red_light_1 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 0.2s;
+}
+
+#red_light_2 {
+    animation: server_light 0.4s infinite;
+}
+
+#red_light_3 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 0.4s;
+}
+
+#red_light_4 {
+    animation: server_light 0.4s infinite;
+    animation-delay: 1s;
+}
+
+
+/* Animations */
+@keyframes droid_hover {
+    0% {
+        transform: translateY(0%);
+
+    }
+    50% {
+        transform: translateY(-2%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes particle_float {
+    0% {
+        opacity: 0.5;
+        transform: translateY(2%);
+    }
+    100% {
+        transform: translateY(-2%);
+        opacity: 0;
+    }
+}
+
+@keyframes eye_blink {
+    0% {
+        visibility: visible;
+    }
+    50% {
+        visibility: hidden;
+    }
+    51% {
+        visibility: visible;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes server_light {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

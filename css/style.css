@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #262626;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Alert */
+.alert {
+    padding: 20px;
+    background-color: #0096FF; 
+    color: white;
+    text-align: center;
+    margin: 12px 30px;
+    border-radius: 4px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #000;
+}
+
+/* Header */
+.header {
+    background:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    width: 700px;
+    margin: 30px auto;
+    padding: 10px 30px;
+}
+
+.logo {
+    color: black;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    padding: 8.5px 7px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover, a.active {
+   border-bottom: 3px solid #0096FF;
+}
+
+/*  Main  */
+.main {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.btn-speak {
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #fff;
+    margin-top: 30px;
+}
+
+.btn-speak i {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.btn-speak:hover {
+    background: #fff;
+    box-shadow: 0 0 50px #0096FF;
+}
+
+.btn-speak:hover i {
+    color: #000;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.footer a {
+    color: #0096FF;
+}
+
+#hearts {
+    color: red;
+}
