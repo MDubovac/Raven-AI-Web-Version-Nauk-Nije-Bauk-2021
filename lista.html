@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Univerzitet Singidunum</title>
+    <title>Lista nardebi</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Google Fonts -->
@@ -21,8 +21,8 @@
         <strong>Pažnja!</strong> Ovo je demo aplikacija, i namenjena je za testiranje u Google Chrome pretraživaču, koji možete preuzeti <a href="https://www.google.com/chrome/">ovde</a>.
     </div>
 
-    <!-- Header -->
-    <div class="header">
+   <!-- Header -->
+   <div class="header">
         <div class="logo">
             <strong>
                 <h3>Raven.ai</h3>
@@ -36,6 +36,19 @@
                 <li><a class="active" href="lista.html">Lista naredbi</a></li>
             </ul>
         </div>
+        
+        <button onclick="toggleMenu();" id="bars">
+            <i class="fa fa-bars"></i>
+        </button>    
+
+    </div>
+
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Demo</a></li>
+            <li><a href="uputstvo.html">Uputstvo</a></li>
+            <li><a class="mobile-active" href="lista.html">Lista naredbi</a></li>
+        </ul>
     </div>
 
     <!-- Lista naredbi -->
@@ -100,6 +113,9 @@
         <br>
         Made with <i id="hearts" class="fa fa-heart"></i> by <a href="https://github.com/MDubovac">Mladen Dubovac</a>.
     </div>
+
+    <!-- JS Scripts -->
+    <script src="./js/responsive-menu.js"></script>
  
 </body>
 </html>

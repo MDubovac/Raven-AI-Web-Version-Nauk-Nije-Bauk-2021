@@ -199,3 +199,22 @@
         opacity: 1;
     }
 }
+
+/* Media Querties */
+@media only screen and (max-width: 534px) {
+    .droid_server {
+        margin-bottom: -10%;
+    }
+}
+
+@media only screen and (max-width: 482px) {
+    .droid_server {
+        margin-bottom: -20%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .droid_server {
+        margin-bottom: -30%;
+    }
+}

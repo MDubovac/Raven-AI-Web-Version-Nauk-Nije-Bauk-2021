@@ -78,6 +78,11 @@ try {
             const answer = "I am an artificial inteligence program, made to help you out in your daily activities."
             s.text = answer;
         }
+        else if (text.includes("how old are you"))
+        {
+            const answer = "I am one month old";
+            s.text = answer;
+        }
         else 
         {
             s.text = "I am not programmed to process that command.";

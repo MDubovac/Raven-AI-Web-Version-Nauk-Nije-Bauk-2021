@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Univerzitet Singidunum</title>
+    <title>Uputstvo</title>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Google Fonts -->
@@ -36,15 +36,27 @@
                 <li><a href="lista.html">Lista naredbi</a></li>
             </ul>
         </div>
+        
+        <button onclick="toggleMenu();" id="bars">
+            <i class="fa fa-bars"></i>
+        </button>    
+    </div>
+
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Demo</a></li>
+            <li><a class="mobile-active" href="uputstvo.html">Uputstvo</a></li>
+            <li><a href="lista.html">Lista naredbi</a></li>
+        </ul>
     </div>
 
     <!-- Uputstvo -->
     <div class="uputstvo">
         <h1>Uputstvo za korišćenje</h1>
         <p>
-            1. Pre svega, potrebno je da koristite Google Chrome pretraživač. <br>
-            2. Zatim, kada pristupite ovoj aplikaciji, potrebno je da pritisnete dugme sa mikrofonom. <br>
-            3. Kada pritisnete to dugme, dobićete pitanje od vašeg pretraživača, o tome da li želite da mu dozvolite da koristi vaš mikrofon.<br>
+            1. Pre svega, potrebno je da koristite Google Chrome pretraživač. <br><br>
+            2. Zatim, kada pristupite ovoj aplikaciji, potrebno je da pritisnete dugme sa mikrofonom. <br><br>
+            3. Kada pritisnete to dugme, dobićete pitanje od vašeg pretraživača, o tome da li želite da mu dozvolite da koristi vaš mikrofon.<br><br>
             4. I konačno, kada dozvolite korišćenje mikrofona, unesite glasovnu komandu. Sve komande možete naći na stranici <a href="lista.html">Lista naredbi</a>.
         </p>
     </div>
@@ -56,6 +68,9 @@
         <br>
         Made with <i id="hearts" class="fa fa-heart"></i> by <a href="https://github.com/MDubovac">Mladen Dubovac</a>.
     </div>
+
+    <!-- JS Scripts -->
+    <script src="./js/responsive-menu.js"></script>
  
 </body>
 </html>

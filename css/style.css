@@ -41,8 +41,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 25px;
-    width: 700px;
-    margin: 30px auto;
+    margin: 30px 20%;
     padding: 10px 30px;
 }
 
@@ -176,4 +175,153 @@ body {
 .lista tbody tr:hover {
     font-weight: bold;
     color: #0096FF;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+#bars {
+    border: none;
+    color: black;
+    font-size: 1.5em;
+    background: none;
+    display: none;
+}
+
+#bars i:hover {
+    cursor: pointer;
+}
+
+.error {
+    background: white;
+    color: black;
+    text-align: center;
+    margin: 10% 20%;
+    padding: 60px 0;
+}
+
+.error h1 {
+    font-size: 3.4em;
+}
+
+.error p {
+    font-size: 1.9em;
+    margin: 20px 0;
+}
+
+.error a {
+    text-decoration: none;
+    background: #0096FF;
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: white;
+}
+
+.error a:hover {
+    background: #0046FF;
+}
+
+/* Media Querties */
+@media only screen and (max-width: 1772px) {
+    .uputstvo {
+        margin: 20px 20%;
+    }
+}
+
+@media only screen and (max-width: 1354px) {
+    .lista table{
+        margin: 0 auto;
+        font-size: 1em;
+        min-width: 100px;
+        width: 100%;
+    }
+
+    .error {
+        margin: 10%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .error {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (max-width: 752px) {
+    .header {
+        margin: 0;
+        border-radius: 0;
+        padding: 10px 50px;
+    }
+
+    .alert {
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .main {
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        margin-bottom: 10%;
+        padding: 0 10px;
+    }
+    .nav {
+        display: none;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    .nav-mobile {
+        background: #fff;
+    }
+
+    .nav-mobile ul li {
+        text-align: center;
+        padding: 20px 40px;
+    }
+
+    .nav-mobile ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .nav-mobile ul li a.mobile-active {
+        background: #0096FF;
+        border-radius: 4px;
+        color: white;
+    }
+
+    .error {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 654px) {
+    .uputstvo {
+        margin: 20px 10%;
+        font-size: .8em;
+    }
+
+    .lista {
+
+        margin: 0 auto;
+        font-size: .8em;
+    }
+
+    .error {
+        font-size: .6em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .error {
+        font-size: .4;
+    }
 }
